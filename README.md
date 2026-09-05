@@ -90,6 +90,10 @@ A modern security-focused interface designed to bring research utilities and int
 
 ---
 
+## 🖥️ Dashboard 
+
+<p align="center"> <img src="dash.png" alt="Dark Net Astra Dashboard" width="100%" > </p> <p align="center"> <em>Dark Net Astra — Cybersecurity Intelligence Dashboard</em> </p>
+
 # 🎯 Project Objective
 
 Dark Net Astra was created with a simple objective:
