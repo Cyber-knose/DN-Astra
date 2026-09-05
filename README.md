@@ -117,6 +117,16 @@ Virtual Machine
       ├── Research Tools
       ├── Test Data
       └── Cybersecurity Lab
+
+# DN ASTRA Tor configuration
+
+The scanner supports an opt-in HTTP/SOCKS proxy through the `DN_ASTRA_TOR_PROXY` environment variable.
+
+Example concept (do not expose the proxy publicly):
+
+    DN_ASTRA_TOR_PROXY=socks5://127.0.0.1:9050
+
+Run Tor locally or in an isolated container, then start FastAPI. Keep the scanner isolated from the host and restrict egress/resources in production.
 ````
 
 ## Why use a Virtual Machine?
